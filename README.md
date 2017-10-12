@@ -1,6 +1,6 @@
 # ExtMarkdown Cheasheet
 
-This cheatsheet is intended as a quick reference and showcase to **ExtMarkdown**. 
+This cheatsheet is intended as a quick reference and showcase to **ExtMarkdown**.
 
 ExtMarkdown is an extension to markdown which bring some extra features to [John Gruber's original markdown format](http://daringfireball.net/projects/markdown/). Below are main features given by ExtMarkdown :
 
@@ -13,20 +13,20 @@ ExtMarkdown is an extension to markdown which bring some extra features to [John
 
 ## Operations
 
-The first purpose of operation feature is to bring arithmetic operations to a markdown document. But you will see that you can use variables like in programming languages. 
+The first purpose of operation feature is to bring arithmetic operations to a markdown document. But you will see that you can use variables like in programming languages.
 
 ### Delimiters
 
 Operations are delimited by a double-accolades `{{}}` :
 
 ```markdown
-You can get an approximative value of pi by dividing 22 by 7. 
+You can get an approximative value of pi by dividing 22 by 7.
 The results is : **{{22/7}}**
 ```
 
-This will render : 
+This will render :
 
-You can get an approximative value of pi by dividing 22 by 7. 
+You can get an approximative value of pi by dividing 22 by 7.
 The results is : **3.142857143**
 
 ### Operators
@@ -49,25 +49,19 @@ Variables can be assigned inside an operation :
 {{ R = 13 }}
 ```
 
-Or assigned by a bracket after the operation (useful if you are in line) : 
-
-```markdown
-{{ 10 + 3 }}(R)
-```
-
-When the variable exists, you can show it like this : 
+When the variable exists, you can show it like this :
 
 ```markdown
 The circle have **{{ R }}** radius.
 ```
 
-This will render : 
+This will render :
 
 The circle have **13** radius.
 
 ### Inline and Multiline
 
-You can use single operation and display the result immediately as the exemple above; or you can do complex operation separately with the use of variables and print variables : 
+You can use single operation and display the result immediately as the exemple above; or you can do complex operation separately with the use of variables and print variables :
 
 ```markdown
 **Radius and Perimeter**
@@ -79,14 +73,14 @@ You can use single operation and display the result immediately as the exemple a
 If the radius is {{ R }}, the perimeter is **{{ P }}**
 ```
 
-This will render : 
+This will render :
 
 **Radius and Perimeter**
 If the radius is 13, the perimeter is **81.714285718**
 
-### Render 
+### Render
 
-If you operation do an internal assignment, in other terms, if you use the sign equal "=", your result will not be rendered. 
+If you operation do an internal assignment, in other terms, if you use the sign equal "=", your result will not be rendered.
 
 This will show nothings :
 
@@ -104,7 +98,7 @@ In other hand, if not, and probably, you operation is inline but not necessarily
 The perimeter is **{{ 2 * (22 / 7) * 13 }}**
 ```
 
-This will render : 
+This will render :
 
 The perimeter is **81.714285718**
 
@@ -120,7 +114,7 @@ Operation errors, if the rendered, will result by a print of a double question m
 #### Conditions
 
     @TODO
-    
+
 #### Loop
 
     @TODO
