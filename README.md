@@ -1,4 +1,4 @@
-# ExtMarkdown Cheasheet
+# ExtMarkdown Cheatsheet
 
 This cheatsheet is intended as a quick reference and showcase to **ExtMarkdown**.
 
